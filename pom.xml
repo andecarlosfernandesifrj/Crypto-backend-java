@@ -48,10 +48,9 @@
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 			<scope>annotationProcessor</scope>
-			<configuration>
-        		<source>1.8</source>
-        		<target>1.8</target>
-    		</configuration>
+			<source>1.8</source>
+        	<target>1.8</target>
+    		
 			<!-- <scope>runtime</scope> -->
 		</dependency>
 
@@ -74,10 +73,9 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			    <!-- <groupId>org.projectlombok</groupId>
                 <artifactId>lombok</artifactId> -->
-                <configuration>
-       				<source>1.8</source>
-       				<target>1.8</target>
-    			</configuration>        
+                <source>1.8</source>
+       			<target>1.8</target>
+    			       
 			</plugin>
 			<plugin>
         		<groupId>com.heroku.sdk</groupId>
