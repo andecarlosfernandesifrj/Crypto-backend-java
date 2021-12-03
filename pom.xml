@@ -48,7 +48,6 @@
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 			<scope>annotationProcessor</scope>
-			<target>1.8</target>
 			<!-- <scope>runtime</scope> -->
 		</dependency>
 
