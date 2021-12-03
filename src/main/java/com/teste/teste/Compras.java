@@ -2,11 +2,13 @@ package com.teste.teste;
 
 import javax.persistence.*;
 //import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
 
 @Entity
 //@Data
-//@AllArgsConstructor
-//@NoArgsConstructor
+@AllArgsConstructor
+@NoArgsConstructor
 public class Compras {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -15,17 +17,6 @@ public class Compras {
     Double preco;
     Double quantidade;
     Double preco_total;
-
-    public Compras(){
-        
-    }
-    public Compras(Long id, String descricao, Double preco, Double quantidade, Double preco_total) {
-        this.id = id;
-        this.descricao = descricao;
-        this.preco = preco;
-        this.quantidade = quantidade;
-        this.preco_total = preco_total;
-    }
 
     public Long getId() {
         return id;
