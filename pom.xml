@@ -68,7 +68,7 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
+			
 			<configuration>
                     <excludes>
                         <exclude>
@@ -76,7 +76,8 @@
                             <artifactId>lombok</artifactId>
                         </exclude>
                     </excludes>
-                </configuration>
+            </configuration>
+			</plugin>
 			<plugin>
         		<groupId>com.heroku.sdk</groupId>
         		<artifactId>heroku-maven-plugin</artifactId>
