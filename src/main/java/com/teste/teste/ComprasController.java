@@ -17,7 +17,7 @@ import lombok.AllArgsConstructor;
 @RestController
 @AllArgsConstructor
 //@CrossOrigin("http://localhost:3000")
-//@CrossOrigin("http://andecarlosfernandesifrj.github.io/:3000/crypto")
+@CrossOrigin("http://andecarlosfernandesifrj.github.io/crypto/:80")
 public class ComprasController {
 
 	ComprasRepository repository;
