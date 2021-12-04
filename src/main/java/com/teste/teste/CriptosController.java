@@ -17,7 +17,7 @@ import lombok.AllArgsConstructor;
 @RestController
 @AllArgsConstructor
 //@CrossOrigin("http://localhost:3000")
-@CrossOrigin("http://andecarlosfernandesifrj.github.io/crypto-dist/:3000")
+@CrossOrigin("http://andecarlosfernandesifrj.github.io/crypto:3000")
 
 public class CriptosController {
 
