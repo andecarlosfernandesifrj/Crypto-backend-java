@@ -21,12 +21,13 @@ public class DbConfig {
 		//dataSource.setPassword("");
 
 		dataSource.setDriverClassName("org.postgresql.Driver");
-        //dataSource.setUrl("jdbc:postgresql://localhost:5432/crypto");
-		//dataSource.setUsername("postgres");
-		//dataSource.setPassword("1234");
-		dataSource.setUrl("jdbc:postgresql://ec2-34-233-214-228.compute-1.amazonaws.com:5432/d7jdltsp7qvc2j");
-		dataSource.setUsername("ntpaffegzeijzy");
-		dataSource.setPassword("1010f6207135a061f0dfc05eee096fca818933fb8d0bdfead7c0daffa7ce918b");
+        dataSource.setUrl("jdbc:postgresql://localhost:5432/crypto");
+		dataSource.setUsername("postgres");
+		dataSource.setPassword("1234");
+		//config postgre heroku
+		//dataSource.setUrl("jdbc:postgresql://ec2-34-233-214-228.compute-1.amazonaws.com:5432/d7jdltsp7qvc2j");
+		//dataSource.setUsername("ntpaffegzeijzy");
+		//dataSource.setPassword("1010f6207135a061f0dfc05eee096fca818933fb8d0bdfead7c0daffa7ce918b");
         return dataSource;
     }
 	

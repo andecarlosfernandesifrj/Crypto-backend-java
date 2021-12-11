@@ -16,8 +16,9 @@ import lombok.AllArgsConstructor;
 
 @RestController
 @AllArgsConstructor
-//@CrossOrigin("http://localhost:8080")
-@CrossOrigin("https://andecarlosfernandesifrj.github.io/")
+//@CrossOrigin("http://localhost:8081") //porta do vue
+@CrossOrigin("*") 
+//@CrossOrigin("https://andecarlosfernandesifrj.github.io/")
 public class ComprasController {
 
 	ComprasRepository repository;
