@@ -25,6 +25,11 @@ public class CriptosController {
 
 	CriptosRepository repository;
 
+	@GetMapping("/")
+	public String start() {
+		return "Servidor on!!!";
+	}
+
 	@GetMapping("/criptos")
 	public List<Criptos> getAllCriptos() {
 		return repository.findAll();
